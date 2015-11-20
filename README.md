@@ -16,4 +16,5 @@
 # Running Program
 
 1. Load required data folder into Working Director, FOLDER NAME: UCI HAR Dataset 2
-2. 
+         Download Link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
