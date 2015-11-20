@@ -49,7 +49,7 @@ subject_train <- read.table("./UCI HAR Dataset/train/subject_train.txt")
 names(X_train) = features
 
 # Add Column names to X_train and multiply with T/F Vector containing mean/std only
-X_train = X_train[,features_matched]
+X_train_matched = X_train[,features_matched]
 
 # Load activity data
 y_train[,2] = activity_labels[y_train[,1]]
@@ -57,7 +57,7 @@ names(y_train) = c("Activity_ID", "Activity_Label")
 names(subject_train) = "subject"
 
 # Bind data
-train_data <- cbind(as.data.table(subject_train), y_train, X_train)
+train_data <- cbind(as.data.table(subject_train), y_train, X_train_matched)
 
 # Merge test and train data
 data = rbind(test_data, train_data)
