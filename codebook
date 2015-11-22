@@ -1,1 +1,19 @@
 #Codebook
+
+
+1. activity_labels --> Raw data of activity labels
+2. data --> Completed tidy data set
+3. data_labels --> Raw data of labels
+4. features --> Raw data of features
+5. features_matched --> Sorted fetures, contains True(mean/std) and False
+6. id_labels --> Raw data of id labels
+7. melt_data --> Melted data with factors and grouings
+8. subject_test --> Raw data of subject tests
+9. subject_train --> Raw data of subjects in train
+10. tidy_data --> Outputted tidy data file
+11. train_data --> Raw Training data
+12. x_test --> Raw x test data
+13. x_test_matched --> Match x test data with mean and std 
+14. X_train --> Raw x train data
+15. y_test --> Raw y test data
+16. y_train --> Raw y train data
