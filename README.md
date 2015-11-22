@@ -17,4 +17,23 @@
 
 1. Load required data folder into Working Director, FOLDER NAME: UCI HAR Dataset 2
          Download Link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+2. Activity Labels and Features are read into R as factors 
+3. grepl function is used for pattern matching mean and std in features data.
+4. A boolean table is generated, True if mean or std is in the row, False if no mean or std is found.
+5. X_test, Y_test and subject_test table are read into tables
+6. Boolean table is multplied with y test to sort only mean and std rows
+7. X_train and Y_train data are into tables
+8. Tables are combined using cbind
+9. Labels are attached to data tables
+10. tidy.data file is outputted
+
+
+
+
+
+
+
+
+
+
 
